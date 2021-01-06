@@ -84,7 +84,7 @@ static UIImage *kPointerCursor() {
         [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[[NSUserDefaults standardUserDefaults] stringForKey:@"homepage"]]]];
     }
     else {
-        [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: @"http://www.google.com"]]];
+        [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: @"https://tv.mjwebs.io"]]];
     }
 }
 -(void)initWebView {
